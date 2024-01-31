@@ -1,0 +1,268 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.mainContainer{
+  width: 80%;
+  margin: auto;
+}
+
+.mainContainer header h2 {
+  text-align: center;
+}
+
+.newsForm {
+  display: flex;
+  gap: 2em;
+  margin: 1em;
+  padding: 1em;
+
+
+}
+
+.newsForm .topicInput {
+  width: 87%;
+  height: 7vh;
+  border: 1px solid black;
+  border-radius: 0.8em;
+  background-color: rgb(237, 237, 237);
+}
+
+.newsForm .topicInput:focus {
+  outline: none;
+}
+
+.newsForm .topicInput::placeholder {
+  padding-left: 1.5em;
+}
+
+.newsForm .newsBtn {
+  width: 10%;
+  height: 7vh;
+  background-color: rgb(237, 237, 237);
+  border: 1px solid black;
+  border-radius: 0.8em;
+}
+
+.newsForm .newsBtn:hover {
+  background-color: rgb(212, 212, 212);
+}
+
+.postContainer {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  align-items: center;
+}
+
+
+.post {
+  border: 1px solid black;
+  border-radius: 1em;
+  width: 95%;
+  background-color: rgb(248, 245, 245);
+  margin: 1em;
+  padding: 1em;
+
+}
+
+.post .titleUrl {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .newsForm {
+    display: flex;
+    gap: 2em;
+    margin: 1em;
+    padding: 1em;
+
+
+  }
+
+  .newsForm .topicInput {
+    width: 85%;
+    height: 7vh;
+    border: 1px solid black;
+    border-radius: 0.8em;
+    background-color: rgb(237, 237, 237);
+  }
+
+  .newsForm .topicInput:focus {
+    outline: none;
+  }
+
+  .newsForm .topicInput::placeholder {
+    padding-left: 1.5em;
+  }
+
+  .newsForm .newsBtn {
+    width: 10%;
+    height: 7vh;
+    background-color: rgb(237, 237, 237);
+    border: 1px solid black;
+    border-radius: 0.8em;
+  }
+
+  .newsForm .newsBtn:hover {
+    background-color: rgb(212, 212, 212);
+  }
+
+  .postContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+
+  .post {
+    border: 1px solid black;
+    border-radius: 1em;
+    width: 95%;
+    background-color: rgb(248, 245, 245);
+    margin: 1em;
+    padding: 1em;
+
+  }
+
+  .post .titleUrl {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+
+
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+
+  .newsForm {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+
+
+  }
+
+  .newsForm .topicInput {
+    width: 95%;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 0.8em;
+    background-color: rgb(237, 237, 237);
+  }
+
+  .newsForm .topicInput:focus {
+    outline: none;
+  }
+
+  .newsForm .topicInput::placeholder {
+    padding-left: 1.5em;
+  }
+
+  .newsForm .newsBtn {
+    width: 20%;
+    height: 5vh;
+    background-color: rgb(237, 237, 237);
+    border: 1px solid black;
+    border-radius: 0.8em;
+    margin: auto;
+  }
+
+  .newsForm .newsBtn:hover {
+    background-color: rgb(212, 212, 212);
+  }
+
+  .postContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+
+  .post {
+    border: 1px solid black;
+    border-radius: 1em;
+    width: 95%;
+    background-color: rgb(248, 245, 245);
+    margin: 1em;
+    padding: 1em;
+
+  }
+
+  .post .titleUrl {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
+
+
+@media screen and (min-width: 200px) and (max-width: 425px) {
+
+  .newsForm {
+    display: flex;
+    flex-direction: column;
+    margin: 1em;
+    padding: 1em;
+
+
+  }
+
+  .newsForm .topicInput {
+    width: 95%;
+    height: 5vh;
+    border: 1px solid black;
+    border-radius: 0.8em;
+    background-color: rgb(237, 237, 237);
+  }
+
+  .newsForm .topicInput:focus {
+    outline: none;
+  }
+
+  .newsForm .topicInput::placeholder {
+    padding-left: 1.5em;
+  }
+
+  .newsForm .newsBtn {
+    width: 30%;
+    height: 5vh;
+    background-color: rgb(237, 237, 237);
+    border: 1px solid black;
+    border-radius: 0.8em;
+    margin: auto;
+  }
+
+  .newsForm .newsBtn:hover {
+    background-color: rgb(212, 212, 212);
+  }
+
+  .postContainer {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+  }
+
+
+  .post {
+    border: 1px solid black;
+    border-radius: 1em;
+    width: 95%;
+    background-color: rgb(248, 245, 245);
+    margin: 1em;
+    padding: 1em;
+
+  }
+
+  .post .titleUrl {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+}
